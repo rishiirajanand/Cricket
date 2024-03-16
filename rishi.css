@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+/* <uniquifier>: Use a unique and descriptive class name
+
+.rubik-<uniquifier> {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+} */
+
 *{
     padding: 0;
     margin: 0;
@@ -8,18 +18,45 @@
     text-align: center;
 }
 
+.text-21{
+    font-size: 21px;
+}
+.text-24{
+    font-size: 24px;
+}
+.margin-bottom-10{
+    margin-bottom: 10px;
+}
+.text-seventy-percent{
+    opacity: 70%;
+}
+
 /* Footer Css */
+
+footer{
+    font-family: "Rubik",sans-serif;
+}
 
 #footer-para{
     width: 100%;
     background-color: #030303;
     height: 300px;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-#footer-para p{
-    width: 50%;
-    margin: auto;
-    
-    font-size: 20px;
+.m-top{
+    margin: 20px 0 0 0;
+}
+#footer-para span{
+    margin: 0 5px;
+}
+#footer-para span a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+#footer-para span a:hover{
+    color: #027AB1;
 }
