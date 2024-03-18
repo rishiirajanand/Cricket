@@ -1,17 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
-/* <uniquifier>: Use a unique and descriptive class name
 
-.rubik-<uniquifier> {
-  font-family: "Rubik", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-} */
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Rubik",sans-serif;
+}
+/* ********** Use for bootstrap */
+p{
+    margin-bottom: 0 !important;
+}
+
+hr{
+    margin: 0 !important;
+    opacity: 1 !important;
+}
+/* **************************** */
+
+body{
+    background-color: #F9F9FB;
 }
 /* Golbal Class */
 .text-center{
@@ -34,9 +42,6 @@
 /* Footer Css */
 
 /* 1st part */
-footer{
-    font-family: "Rubik",sans-serif;
-}
 
 #footer-para{
     width: 100%;
@@ -120,4 +125,149 @@ footer{
     font-size: 12px;
     color: white;
     opacity: 50%;
+}
+
+/* ***************** Spotlight Section ****************** */
+
+
+.spotlight{
+    margin: 20px 0 0 20px;
+    width: 70%;
+}
+
+.spotlight-heading{
+    padding: 10px;
+    color: #03A9F5;
+    background-color: #ffffff;
+    border: 1px solid gainsboro;
+    border-radius: 15px 15px 0px 0px;
+    font-weight: 700;
+}
+
+.spotlight-content{
+    background-color: #ffffff;
+    border-left: 1px solid gainsboro;
+    border-right: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+    border-top: 1px solid gainsboro;
+    border-radius: 0px 0px 15px 15px;
+}
+
+
+.spotlight-content i{
+    margin: 0 10px;
+    color: #03A9F5;
+    font-size: 10px;
+    
+}
+.spotlight-content span{
+    font-size: 13px;
+    opacity: 80%;
+}
+.spotlight-content p{
+    padding: 8px 0;
+}
+.spotlight-content p:hover{
+    background-color: #E5F6FE;
+}
+
+
+/* ************************ Editor’s Picks Section ******************/
+
+.editor{
+    display: flex;
+    margin: 20px;
+}
+
+.bg-black{
+    background-color: #030303;
+    color: white !important;
+}
+.card-text-footer{
+    font-size: 12px; 
+    opacity: 60%;
+}
+.card{
+    overflow: hidden;
+    
+}
+.card img{
+    transition: all 0.3s ease-in;
+}
+.card img:hover{
+    transform: scale(1.1);
+}
+
+/* ************************ Editor Pick's Section ******************/
+
+.editor-section{
+    margin: 20px 0 0 20px;
+    width: 70%;
+}
+
+.editor-heading{
+    padding: 10px;
+    color: #03A9F5;
+    background-color: #ffffff;
+    border: 1px solid gainsboro;
+    border-radius: 15px 15px 0px 0px;
+    font-weight: 700;
+}
+
+.editor-content{
+    background-color: #ffffff;
+    border-left: 1px solid gainsboro;
+    border-right: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+    border-top: 1px solid gainsboro;
+    border-radius: 0px 0px 15px 15px;
+}
+
+
+
+/* ************************ In Depth Section ******************/
+
+.depth-section{
+    margin: 20px 0 0 20px;
+    width: 70%;
+}
+
+.depth-heading{
+    padding: 10px;
+    color: #03A9F5;
+    background-color: #ffffff;
+    border: 1px solid gainsboro;
+    border-radius: 15px 15px 0px 0px;
+    font-weight: 700;
+}
+
+.depth-content{
+    background-color: #ffffff;
+    border-left: 1px solid gainsboro;
+    border-right: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+    border-top: 1px solid gainsboro;
+    border-radius: 0px 0px 15px 15px;
+}
+
+
+.card-body-head span{
+    padding: 5px;
+    background-color: #E5F6FE;
+    font-size: 12px;
+    font-weight: 700;
+}
+.card-body-section span{
+    font-size: 14px;
+}
+.card-body-section i{
+    font-size: 8px;
+    color: #03A9F5;
+}
+.card-body-section span a{
+    text-decoration: none;
+    color: #030303;
+}
+.card-body-section span a:hover{
+    color: #03A9F5;
 }
