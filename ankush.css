@@ -1,3 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
 
 body {
   height: 100vh;
@@ -17,15 +25,15 @@ nav .header {
   display: flex;
 }
 
-nav .header p {
+nav .header p{
   margin: 8px;
   color: whitesmoke;
   font-size: 12px;
   cursor: pointer;
+  transition: all 0.5s ease-in;
 }
 
-/* modify */
-nav .header p:hover{
+.header p:hover{
   transform: scale(1.06);
 }
 
@@ -34,9 +42,9 @@ nav .header p:first-child {
 }
 
 nav .scores {
+  padding: 20px;
   display: flex;
   align-items: center;
-  margin: 7px 0px 20px 0px
 }
 
 nav .scores .card {
@@ -143,7 +151,7 @@ nav .scores .card {
 .scores .bottom p:hover {
   border-bottom: 1px solid gray;
 }
-
+/* //////////////////////// */
 .subnav {
   /* height: 5vh; */
   padding: 10px;
@@ -160,15 +168,14 @@ nav .scores .card {
   justify-content: space-between;
 }
 
-.subnav .container img{
+.subnav .container img {
   height: 15px;
   width: 120px;
   object-fit: cover;
   margin-left: 10px;
-  transition: all 0.6 ease-in;
+  transition: all 0.5s ease-in;
   cursor: pointer;
 }
-
 .subnav .container img:hover{
   transform: scale(1.06);
 }
@@ -183,9 +190,8 @@ nav .scores .card {
   list-style: none;
   margin-left: 23px;
   cursor: pointer;
+  transition: all 0.5s ease-in;
 }
-
-/* modify */
 .info li:hover{
   transform: scale(1.06);
 }
@@ -203,18 +209,23 @@ nav .scores .card {
   position: absolute;
   border-radius: 5px;
   background-color: #fff;
-  min-width: 100px;
+  min-width: 150px;
   z-index: 1;
-  top: 100%;
-  left: 0;
+  top: 105%;
+  left: -15%;
 }
 
 .info .dropdown-content a {
-  color: black;
+  color: #2b2c2d;
   padding: 8px 20px;
   text-decoration: none;
   display: block;
   font-size: 14px;
+  font-weight: 400;
+}
+.info .dropdown-content a:hover {
+  background-color: #e5f6fe;
+  border-radius: 5px;
 }
 
 .sub-info {
