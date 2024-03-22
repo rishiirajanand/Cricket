@@ -140,8 +140,9 @@ footer{
 
 
 .spotlight{
-    width: 66%;
-    margin-bottom: 3.1%;
+    /* width: 66%; */
+    margin: 3.1%;
+    margin-top: 0;
 }
 
 .spotlight-heading{
@@ -185,8 +186,9 @@ footer{
 /* ************************ Editor’s Picks Section ******************/
 
 .main{
-    width: 66%;
-    margin-bottom: 3.1%;
+    /* width: 66%; */
+    margin: 3.1%;
+    margin-top:0;
 }
 
 .editor{
@@ -246,8 +248,9 @@ footer{
 /* ************************ In Depth Section ******************/
 
 .depth{
-    width: 66%;
-    margin-bottom: 3.1%;
+    /* width: 66%; */
+    margin: 3.1%;
+    margin-top: 0;
 }
 
 .editor-box-head{
@@ -282,14 +285,14 @@ footer{
 /* ************************ Developer Section ******************/
 
 .developer-container{
-    width: 66%;
+    /* width: 66%; */
     border-radius: 10px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     gap: 1px;
-    margin-bottom: 4%;
-    
+    margin: 3.1%;
+    border: 1px solid gainsboro;
 }
 
 .developer-head{

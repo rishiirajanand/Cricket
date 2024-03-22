@@ -2,8 +2,15 @@
     padding: 0;
     margin: 0;
 }
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 #middle{
     display: flex;
+    width: 80%;
+    justify-content: center;
 }
 #middle-left{
     display: flex;
@@ -20,7 +27,7 @@
 .ad-image0{
     display: flex;
     justify-content: center;
-    margin: 20px;
+    margin: 3.1%;
 }
 .ad-image0>img{
     width: 75%;
@@ -28,9 +35,10 @@
 }
 /* ---coverage start---- */
 #match-coverage{
-    margin: 20px 20px 0 20px;
+    margin:0 3.1%;
     border-radius: 10px 10px 0 0;
-    border: 1px solid rgb(198, 196, 196);
+    border: 1px solid gainsboro;
+    background-color: #ffffff;
 }
 .coverage-head{
     font-size: 18px;
@@ -67,12 +75,14 @@
     display: flex;
     padding: 16px;
     border-radius: 0 0 10px 10px;
-    border: 1px solid rgb(198, 196, 196);
-    margin: 0 20px 20px 20px;
+    border: 1px solid gainsboro;
+    background-color: #ffffff;
+    margin: 0 3.1%;
+
 }
 .innerinfo-head{
     font-size: 28px;
-    margin: 0 16px 16px 16px;
+    margin: 0 3%;
     padding: 5px;
 }
 .coverage-innerinfo{
@@ -80,14 +90,14 @@
 }
 .innerinfo-result{
     font-size: 18px;
-    margin: 16px;
+    margin: 3%;
     padding: 5px;
     background-color: rgb(195, 220, 245);
     border-radius: 10px;
 }
 
 ul{
-    margin-left: 16px;
+    margin-left: 3%;
     padding-left: 5px;
     list-style-type: none;
 }
@@ -99,17 +109,21 @@ ul{
 #featured{
     display: flex;
     padding: 16px;
-    border: 1px solid rgb(198, 196, 196);
-    margin: 0 20px 20px 20px;
+    border: 1px solid gainsboro;
+    margin: 3.1%;
+    margin-top: 0;
     border-radius: 0 0 10px 10px;
+    background-color: #ffffff;
 }
 .featured-head{
     font-size: 18px;
     font-weight: 900;
     padding: 16px; 
     border-radius: 10px 10px 0 0;
-    border: 1px solid rgb(198, 196, 196);
-    margin: 20px 20px 0 20px;
+    border: 1px solid gainsboro;
+    margin: 3.1%;
+    margin-bottom: 0;
+    background-color: #ffffff;
 }
 .featured-innerinfo{
     padding: 16px;
@@ -135,12 +149,14 @@ ul{
     font-weight: 900;
     padding: 16px; 
     border-radius: 10px 10px 0 0;
-    border: 1px solid rgb(198, 196, 196);
-    margin: 20px 20px 0 20px;
+    border: 1px solid gainsboro;
+    margin: 3.1%;
+    margin-bottom: 0;
+    background-color: #ffffff;
 }
 .top-stories-info{
     display: flex;
-    margin: 0 20px;
+    margin: 0 3.1%;
     padding: 10px;
 }
 .top-stories-detail{
@@ -151,19 +167,23 @@ ul{
     padding: 10px;
     margin: 0;
     flex-basis: 50%;
-    border-right: 1px solid rgb(198, 196, 196) ;
-    border-bottom: 1px solid rgb(198, 196, 196) ;
+    border-right: 1px solid gainsboro ;
+    border-bottom: 1px solid gainsboro ;
+    background-color: #ffffff;
 }
 .part2{
     display: flex;
     padding: 10px;
     margin: 0;
     flex-basis: 50%;
-    border-bottom: 1px solid rgb(198, 196, 196) ;
+    border-bottom: 1px solid gainsboro ;
+    background-color: #ffffff;
 }
 #top-stories{
-    border: 1px solid rgb(198, 196, 196);
-    margin: 0 20px 20px 20px;
+    border: 1px solid gainsboro;
+    background-color: #ffffff;
+    margin: 3.1%;
+    margin-top: 0;
     border-radius: 0 0 10px 10px;
 }
 .top-stories-img{
@@ -193,26 +213,30 @@ ul{
     font-weight: 900;
     padding: 16px; 
     border-radius: 10px 10px 0 0;
-    border: 1px solid rgb(198, 196, 196);
-    margin: 20px 20px 0 20px;
+    border: 1px solid gainsboro;
+    margin: 3.1%;
+    margin-bottom: 0;
+    background-color: #ffffff;
 }
 .must-watch-head{
     font-size: 14px;
 }
 .see-all{
     font-size: 10px;
+    font-weight: 800;
     color: rgb(13, 129, 246);
 }
 .see-all:hover{
     text-decoration: underline;
 }
 #must-watch-pics{
-    border: 1px solid rgb(198, 196, 196);
-    margin: 0 20px 20px 20px;
+    border: 1px solid gainsboro;
+    margin: 0 3.1%;
     border-radius: 0 0 10px 10px;
     display: flex;
     flex-direction: column;
     padding: 20px;
+    background-color: #ffffff;
 }
 .must-watch-pic{
     text-align: center;
@@ -224,7 +248,8 @@ ul{
 }
 .must-watch-content{
     text-align: center;
-    margin: 20px 20px 0 20px;
+    margin: 3.1%;
+    margin-bottom: 0;
 
 }
 .circle-icons{
@@ -237,7 +262,7 @@ ul{
 /* ---------ad 1---------- */
 .ad-image1{
     display: flex;
-    margin: 0 20px 20px 20px;
+    margin: 3.1%;
 }
 .ad-image1>img{
    width: 100%;
@@ -247,19 +272,21 @@ ul{
 
 #number-crunching{
     text-align: center;
-    border: 1px solid rgb(198, 196, 196);
-    margin: 0px 20px 20px 20px;
+    border: 1px solid gainsboro;
+    margin: 0 3.1%;
     border-radius: 0 0 10px 10px;
     text-align: center;
     padding: 10px;
+    background-color: #ffffff;
 }
 #number-crunching-head{
     font-size: 14px;
     font-weight: 900;
     padding: 16px; 
     border-radius: 10px 10px 0 0;
-    border: 1px solid rgb(198, 196, 196);
-    margin: 0px 20px 0 20px;
+    border: 1px solid gainsboro;
+    margin:0 3.1%;
+    background-color: #ffffff;
 }
 
 .number-crunching-info-head{
@@ -293,8 +320,10 @@ ul{
     font-weight: 900;
     padding: 16px; 
     border-radius: 10px 10px 0 0;
-    border: 1px solid rgb(198, 196, 196);
-    margin: 0px 20px 0 20px;
+    border: 1px solid gainsboro;
+    margin: 3.1%;
+    margin-bottom: 0;
+    background-color: #ffffff;
 }
 .this-day-innerinfo{
     color: white;
@@ -310,11 +339,12 @@ ul{
     border-radius: 0 0 10px 10px;
 }
 .this-day-info{
-    border: 1px solid rgb(198, 196, 196);
-    margin: 0px 20px 20px 20px;
+    border: 1px solid gainsboro;
+    margin: 0 3.1%;
     border-radius: 0 0 10px 10px;
     display: flex;
     flex-direction: column;
+    background-color: #ffffff;
 }
 
 .this-day-img>img{
@@ -325,7 +355,7 @@ ul{
 /* ----------ad 2------------- */
 .ad-image2{
     display: flex;
-    margin: 0 20px 20px 20px;
+    margin: 3.1%;
 }
 .ad-image2>img{
    width: 100%;
@@ -338,14 +368,16 @@ ul{
     font-weight: 900;
     padding: 16px; 
     border-radius: 10px 10px 0 0;
-    border: 1px solid rgb(198, 196, 196);
-    margin: 0px 20px 0 20px;
+    border: 1px solid gainsboro;
+    margin:0 3.1%;
+    background-color: #ffffff;
 }
 .link-info{
-    border: 1px solid rgb(198, 196, 196);
-    margin: 0px 20px 20px 20px;
+    border: 1px solid gainsboro;
+    margin: 0 3.1%;
     border-radius: 0 0 10px 10px;
     padding: 10px;
+    background-color: #ffffff;
 }
 .linkInfo{
     padding: 10px;
@@ -357,7 +389,7 @@ ul{
 /* ----------ad 3------------- */
 .ad-image3{
     display: flex;
-    margin: 0 20px 20px 20px;
+    margin: 3.1%;
 }
 .ad-image3>img{
    width: 100%;
@@ -370,12 +402,14 @@ ul{
     font-weight: 900;
     padding: 16px; 
     border-radius: 10px 10px 0 0;
-    border: 1px solid rgb(198, 196, 196);
-    margin: 0px 20px 0 20px;
+    border: 1px solid gainsboro;
+    margin: 0 3.1%;
+    background-color: #ffffff;
 }
 .most-read-info{
-    border: 1px solid rgb(198, 196, 196);
-    margin: 0px 20px 20px 20px;
+    border: 1px solid gainsboro;
+    background-color: #ffffff;
+    margin: 0 3.1%;
     border-radius: 0 0 10px 10px;
     padding: 10px;
 }
@@ -389,7 +423,7 @@ ul{
 /* --------------ad 4-------------- */
 .ad-image4{
     display: flex;
-    margin: 0 20px 20px 20px;
+    margin: 3.1%;
 }
 .ad-image4>img{
    width: 100%;

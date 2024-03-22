@@ -13,8 +13,8 @@ body {
 }
 
 nav {
-  width: 100%;
-  min-height: 21vh;
+  width: 80%;
+  /* min-height: 21vh; */
   background-color: #0398dc;
   display: flex;
   flex-direction: column;
@@ -155,7 +155,7 @@ nav .scores .card {
 .subnav {
   /* height: 5vh; */
   padding: 10px;
-  width: 100%;
+  width: 80%;
   background-color: #50c0f3;
   display: flex;
   justify-content: center;
@@ -245,10 +245,10 @@ nav .scores .card {
 
 .main-container {
   width: 100%;
-  background-color: #e8e8f0;
+  /* background-color: #e8e8f0; */
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
   flex-direction: column;
 }
 
@@ -258,7 +258,12 @@ nav .scores .card {
 
 .hero .hero-right,
 .hero-second .hero-second-right {
-  margin: 40px 30px 0px 10px;
+  /* margin: 40px 30px 0px 10px; */
+  margin: 3.1%;
+  margin-top: 10px;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+  overflow: auto;
 }
 
 .hero-second .hero-second-right {
@@ -270,11 +275,13 @@ nav .scores .card {
 }
 
 .hero .hero-right-top {
-  height: 375px;
-  width: 700px;
+  /* height: 375px;
+  width: 700px; */
+  /* width: 100%; */
   background-color: #fff;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  overflow: hidden;
 }
 
 .hero-second-right .hero-second-top {
@@ -314,8 +321,9 @@ nav .scores .card {
 .hero .hero-right-bottom,
 .main-container .hero-right-bottom {
   height: 150px;
-  width: 700px;
-  margin-bottom: 50px;
+  /* width: 700px; */
+  /* width: 100%; */
+  /* margin-bottom: 50px; */
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   border-top: 1px solid #e0e0e6;
