@@ -1,4 +1,5 @@
 Cricket Score Website
+Tech used in this project :- HTML,CSS and Vanilla JavaScript
 Hosting link :- https://rishiirajanand.github.io/cricket/
 Features:-
 
