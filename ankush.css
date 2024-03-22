@@ -10,10 +10,11 @@
 body {
   height: 100vh;
   width: 100%;
+  background-color: rgb(229 229 229);
 }
 
 nav {
-  width: 80%;
+  width: 100%;
   /* min-height: 21vh; */
   background-color: #0398dc;
   display: flex;
@@ -155,7 +156,7 @@ nav .scores .card {
 .subnav {
   /* height: 5vh; */
   padding: 10px;
-  width: 80%;
+  width: 100%;
   background-color: #50c0f3;
   display: flex;
   justify-content: center;

@@ -290,7 +290,7 @@ footer{
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    gap: 1px;
+    gap: 2px;
     margin: 3.1%;
     border: 1px solid gainsboro;
 }
@@ -304,7 +304,7 @@ footer{
 .developer-body{
     display: flex;
     flex-direction: row;
-    gap: 1px;
+    gap: 2px;
 
 }
 .developer-main-box{
