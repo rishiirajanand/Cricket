@@ -44,17 +44,22 @@
                                 alt="" />
                             <p style="color: gray">BAN</p>
                         </div>
-                        <p class="current">Sri Lanka chose to bat.</p>
+                        
                     </div>
                     <div class="runs">
                         <div class="first-run">
-                            <p>(50 ov)</p>
-                            <p>250</p>
+                            <p class="over-count" id="over-count">(50 ov)</p>
+                            <p id="team-run">250</p>
                         </div>
                         <div class="second-run">
-                            <p>Yet to bat.</p>
+                            <p id="second-team-over">Yet to bat.</p>
+                            <p id="second-team-run"></p>
                         </div>
                     </div>
+                </div>
+                <div id="over-runs">
+                    <p class="current" id="show-run">Sri Lanka chose to bat.</p>
+                    <p id="final-result"></p>
                 </div>
                 <div class="bottom">
                     <p>Schedule</p>
@@ -1196,6 +1201,7 @@
             </div>
         </div>
     </footer>
+    <script src="rishi.js"></script>
     <script src="rushabh.js"></script>
     <script src="ankush.js"></script>
 </body>
