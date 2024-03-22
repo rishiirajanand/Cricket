@@ -323,6 +323,7 @@ footer{
     cursor: pointer;
 }
 .developer-box-2 img{
+    object-fit: cover;
     min-width: 100px;
     min-height: 100px;
     max-width: 100px;

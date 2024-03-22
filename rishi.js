@@ -83,7 +83,7 @@ function matchOver(num) {
                 secondTeamRuns(num)
             },3000)      
         }
-    }, 1000);
+    }, 5000);
 }
 
 matchOver(1);

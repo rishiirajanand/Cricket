@@ -19,6 +19,6 @@ LIVE SCORE
 - end of both match you can able to see winning Team name with runs
 - you can set the over that you want to set
 
-**Note :- whenever you refresh the page the match will start after 1s
+**Note :- whenever you refresh the page the match will start after 5s
 
 
