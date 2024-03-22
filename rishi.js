@@ -74,7 +74,7 @@ function matchOver(num) {
         if (ballCount/totalOver === 1) {
             clearInterval(interval);
             overCount[0].innerText ="";
-            teamRun.innerText = `(${num} ov. R:${valTeamAruns})`;
+            teamRun.innerText = `(2 ov. R:${valTeamAruns})`;
 
             secontTeamOver.innerText = 'match start in 3s'
 
@@ -121,7 +121,7 @@ function secondTeamRuns(num){
         if (ballCount/totalOver === 1) {
             clearInterval(interval);
             secontTeamOver.innerText = "";
-            secontTeamRun.innerText = `(${num} ov. R:${valTeamBruns})`;
+            secontTeamRun.innerText = `(2 ov. R:${valTeamBruns})`;
 
             console.log(valTeamAruns,valTeamBruns);
 
