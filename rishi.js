@@ -135,6 +135,6 @@ function secondTeamRuns(num){
             }
         }
         
-    }, 1000);
+    }, 5000);
 
 }
