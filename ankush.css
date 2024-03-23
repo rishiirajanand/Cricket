@@ -161,7 +161,6 @@ nav .scores .card {
 /* //////////////////////// */
 .subnav {
   /* height: 5vh; */
-  padding: 10px;
   width: 100%;
   background-color: #50c0f3;
   display: flex;
@@ -190,17 +189,12 @@ nav .scores .card {
   width: 120px;
   object-fit: cover;
   margin-left: 10px;
-  transition: all 0.5s ease-in;
-  cursor: pointer;
-}
-.subnav .container img:hover {
-  transform: scale(1.06);
 }
 
 .info {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .info li {
@@ -208,10 +202,6 @@ nav .scores .card {
   list-style: none;
   margin-left: 23px;
   cursor: pointer;
-  transition: all 0.5s ease-in;
-}
-.info li:hover {
-  transform: scale(1.06);
 }
 
 .info .dropdown a {
@@ -229,7 +219,7 @@ nav .scores .card {
   background-color: #fff;
   min-width: 150px;
   z-index: 1;
-  top: 105%;
+  top: 100%;
   left: -15%;
 }
 
@@ -334,6 +324,10 @@ nav .scores .card {
   padding: 5px 20px 5px 10px;
   cursor: pointer;
   font-size: 12px;
+}
+
+.hero-header-left {
+  padding: 10px;
 }
 
 .hero .hero-right-bottom,
@@ -722,7 +716,7 @@ nav .scores .card {
   }
 }
 /* *************** Rishi modification ************* */
-#over-runs{
+#over-runs {
   padding: 0 10px;
   font-size: 11px;
   font-weight: 600;
@@ -730,26 +724,26 @@ nav .scores .card {
   justify-content: space-between;
   /* background-color: aqua;   */
 }
-#second-team-run{
+#second-team-run {
   font-size: 14px;
   color: black;
   font-weight: 600;
 }
 
-#final-result{
+#final-result {
   font-size: 12px;
   color: darkgreen;
   animation: bonce 2s ease-in-out infinite;
 }
 
 @keyframes bonce {
-  0%{
+  0% {
     transform: scale(1);
   }
-  50%{
+  50% {
     transform: scale(0.8);
   }
-  100%{
+  100% {
     transform: scale(1);
   }
 }

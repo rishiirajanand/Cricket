@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cricket Live Score</title>
 
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
     <link rel="stylesheet" href="rushabh.css" />
     <link rel="stylesheet" href="rishi.css" />
@@ -28,133 +28,152 @@
 
     <!-- SCORES -->
     <div class="navbar">
-        <nav>
-            <div class="header">
-                <p>Matches(5)</p>
-                <p>IND v NZ</p>
-                <p>WPL(1)</p>
-                <p>AFG v IRE(2)</p>
-                <p>PSL 2024(1)</p>
+      <nav>
+        <div class="header">
+          <p>Matches(5)</p>
+          <p>IND v NZ</p>
+          <p>WPL(1)</p>
+          <p>AFG v IRE(2)</p>
+          <p>PSL 2024(1)</p>
+        </div>
+        <div class="scores">
+          <div class="card">
+            <div class="card-nav">
+              <p>LIVE</p>
+              <p>3rd ODI</p>
+              <p>Chattogram</p>
             </div>
-            <div class="scores">
-                <div class="card">
-                    <div class="card-nav">
-                        <p>LIVE</p>
-                        <p>3rd ODI</p>
-                        <p>Chattogram</p>
-                    </div>
-                    <div class="card-scores">
-                        <div class="flag">
-                            <div class="team">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Flag_of_Sri_Lanka.svg/1200px-Flag_of_Sri_Lanka.svg.png"
-                                    alt="Sri-Lanka-Flag" />
-                                <p style="font-weight: 600">SL</p>
-                            </div>
-                            <div class="team">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Flag_of_Bangladesh.svg/1200px-Flag_of_Bangladesh.svg.png"
-                                    alt="" />
-                                <p style="color: gray">BAN</p>
-                            </div>
-                            
-                        </div>
-                        <div class="runs">
-                            <div class="first-run">
-                                <p class="over-count" id="over-count">Match will start in 5s</p>
-                                <p id="team-run">0</p>
-                            </div>
-                            <div class="second-run">
-                                <p id="second-team-over">Yet to bat.</p>
-                                <p id="second-team-run"></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="over-runs">
-                        <p class="current" id="show-run">Sri Lanka chose to bat.</p>
-                        <p id="final-result"></p>
-                    </div>
-                    <div class="bottom">
-                        <p>Schedule</p>
-                        <p>Report</p>
-                        <p>Table</p>
-                        <p>Series</p>
-                    </div>
+            <div class="card-scores">
+              <div class="flag">
+                <div class="team">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Flag_of_Sri_Lanka.svg/1200px-Flag_of_Sri_Lanka.svg.png"
+                    alt="Sri-Lanka-Flag"
+                  />
+                  <p style="font-weight: 600">SL</p>
                 </div>
-                <div class="card">
-                    <div class="card-nav">
-                        <p style="color: #2b2c2d">RESULT</p>
-                        <p>T20 WC</p>
-                        <p>Final</p>
-                        <p>Uttarakhand</p>
-                    </div>
-                    <div class="card-scores">
-                        <div class="flag">
-                            <div class="team">
-                                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/1200px-Flag_of_India.svg.png"
-                                    alt="Indian-Flag" />
-                                <p style="font-weight: 600">IND</p>
-                            </div>
-                            <div class="team">
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyaMYVM3TLnLYb-vsiLznwq7XEse8rh0qOs9okmGyYJdbqDDk_W3Qc4Gmx9vw8&s=10"
-                                    alt="" />
-                                <p style="color: gray">NZ</p>
-                            </div>
-                            <p class="current">India won by 58 runs</p>
-                        </div>
-                        <div class="runs">
-                            <div class="first-run">
-                                <p>155/7</p>
-                            </div>
-                            <div class="second-run">
-                                <p><span style="font-size: 10px;">(17.2/20 ov. T:156) </span>98</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="bottom">
-                        <p>Schedule</p>
-                        <p>Report</p>
-                        <p>Table</p>
-                        <p>Series</p>
-                    </div>
+                <div class="team">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Flag_of_Bangladesh.svg/1200px-Flag_of_Bangladesh.svg.png"
+                    alt=""
+                  />
+                  <p style="color: gray">BAN</p>
                 </div>
-                <div class="card">
-                    <div class="card-nav">
-                        <p style="color: #2b2c2d">RESULT</p>
-                        <p>Final</p>
-                        <p>WPL</p>
-                        <p>WT20</p>
-                        <p>Delhi</p>
-                    </div>
-                    <div class="card-scores">
-                        <div class="flag">
-                            <div class="team">
-                                <img src="https://www.tcscricket.com/wp-content/uploads/2023/03/WhatsApp-Image-2023-03-29-at-8.33.58-PM-7-247x247.jpeg"
-                                    alt="RCB" />
-                                <p>RCB-W</p>
-                            </div>
-                            <div class="team">
-                                <img src="https://www.delhicapitals.in/static-assets/images/cssimages/logo.png" alt="DC" />
-                                <p style="color: gray">DC-W</p>
-                            </div>
-                            <p class="current">RCB Women won by 8 wickets</p>
-                        </div>
-                        <div class="runs">
-                            <div class="first-run">
-                                <p><span style="font-size: 10px;">(19.3/20 ov. T:114) </span>115/2</p>
-                            </div>
-                            <div class="second-run">
-                                <p>113</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="bottom">
-                        <p>Schedule</p>
-                        <p>Report</p>
-                        <p>Table</p>
-                        <p>Series</p>
-                    </div>
+              </div>
+              <div class="runs">
+                <div class="first-run">
+                  <p class="over-count" id="over-count">
+                    Match will start in 5s
+                  </p>
+                  <p id="team-run">0</p>
                 </div>
+                <div class="second-run">
+                  <p id="second-team-over">Yet to bat.</p>
+                  <p id="second-team-run"></p>
+                </div>
+              </div>
             </div>
-        </nav>
+            <div id="over-runs">
+              <p class="current" id="show-run">Sri Lanka chose to bat.</p>
+              <p id="final-result"></p>
+            </div>
+            <div class="bottom">
+              <p>Schedule</p>
+              <p>Report</p>
+              <p>Table</p>
+              <p>Series</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-nav">
+              <p style="color: #2b2c2d">RESULT</p>
+              <p>T20 WC</p>
+              <p>Final</p>
+              <p>Uttarakhand</p>
+            </div>
+            <div class="card-scores">
+              <div class="flag">
+                <div class="team">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/1200px-Flag_of_India.svg.png"
+                    alt="Indian-Flag"
+                  />
+                  <p style="font-weight: 600">IND</p>
+                </div>
+                <div class="team">
+                  <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyaMYVM3TLnLYb-vsiLznwq7XEse8rh0qOs9okmGyYJdbqDDk_W3Qc4Gmx9vw8&s=10"
+                    alt=""
+                  />
+                  <p style="color: gray">NZ</p>
+                </div>
+                <p class="current">India won by 58 runs</p>
+              </div>
+              <div class="runs">
+                <div class="first-run">
+                  <p>155/7</p>
+                </div>
+                <div class="second-run">
+                  <p>
+                    <span style="font-size: 10px">(17.2/20 ov. T:156) </span>98
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="bottom">
+              <p>Schedule</p>
+              <p>Report</p>
+              <p>Table</p>
+              <p>Series</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-nav">
+              <p style="color: #2b2c2d">RESULT</p>
+              <p>Final</p>
+              <p>WPL</p>
+              <p>WT20</p>
+              <p>Delhi</p>
+            </div>
+            <div class="card-scores">
+              <div class="flag">
+                <div class="team">
+                  <img
+                    src="https://www.tcscricket.com/wp-content/uploads/2023/03/WhatsApp-Image-2023-03-29-at-8.33.58-PM-7-247x247.jpeg"
+                    alt="RCB"
+                  />
+                  <p>RCB-W</p>
+                </div>
+                <div class="team">
+                  <img
+                    src="https://www.delhicapitals.in/static-assets/images/cssimages/logo.png"
+                    alt="DC"
+                  />
+                  <p style="color: gray">DC-W</p>
+                </div>
+                <p class="current">RCB Women won by 8 wickets</p>
+              </div>
+              <div class="runs">
+                <div class="first-run">
+                  <p>
+                    <span style="font-size: 10px">(19.3/20 ov. T:114) </span
+                    >115/2
+                  </p>
+                </div>
+                <div class="second-run">
+                  <p>113</p>
+                </div>
+              </div>
+            </div>
+            <div class="bottom">
+              <p>Schedule</p>
+              <p>Report</p>
+              <p>Table</p>
+              <p>Series</p>
+            </div>
+          </div>
+        </div>
+      </nav>
       <!-- NAVBAR -->
       <div class="subnav">
         <div class="container">
@@ -283,10 +302,14 @@
               <div class="hero-top-header">
                 <div class="hero-header-left">
                   <iframe
-                    class="header-video"
-                    src="https://www.youtube.com/embed/watch?v=3tLeV7nP8zU&ab_channel=SupercutAction"
-                  >
-                  </iframe>
+                    width="280"
+                    height="180"
+                    src="https://www.youtube.com/embed/YqKYpgZ9FWU"
+                    title="Cricket World Cup 2023 Final: Australia v India | Match Highlights"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
                   <div class="video-bullets">
                     <p>Outs and ins</p>
                     <p>Fixtures</p>
@@ -1046,10 +1069,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur.</p>
               </div>
               <div class="developer-box-2">
-                <img
-                  src="./images/rishi.jpg"
-                  alt=""
-                />
+                <img src="./images/rishi.jpg" alt="" />
               </div>
             </div>
             <div class="developer-main-box">
@@ -1058,10 +1078,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur.</p>
               </div>
               <div class="developer-box-2">
-                <img
-                  src="./images/ankush.jpg"
-                  alt=""
-                />
+                <img src="./images/ankush.jpg" alt="" />
               </div>
             </div>
             <div class="developer-main-box">
@@ -1070,10 +1087,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur.</p>
               </div>
               <div class="developer-box-2">
-                <img
-                  src="./images/rushabh.jpg"
-                  alt=""
-                />
+                <img src="./images/rushabh.jpg" alt="" />
               </div>
             </div>
           </div>
