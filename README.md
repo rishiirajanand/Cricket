@@ -4,11 +4,11 @@
 This project is a Cricket Score Website built using HTML, CSS, and Vanilla JavaScript. It provides users with live cricket scores, including details like runs per ball and over-by-over updates. Additionally, the website features a clean and minimal UI with responsiveness across different devices. 
 
 ## Hosting
-The website is hosted at [https://rishiirajanand.github.io/cricket/](https://rishiirajanand.github.io/cricket/).
+Deploying link : [click](https://rishiirajanand.github.io/cricket/).
 
 ## Features
 
-### UI
+### User Interface
 - Clean and minimal UI design for better user experience.
 - Minimal animation enhances user interaction without overwhelming the interface.
 - Responsive design ensures usability across tablets and mobile devices (40% mobile responsiveness).
@@ -33,6 +33,3 @@ The website is hosted at [https://rishiirajanand.github.io/cricket/](https://ris
 
 ## Contributors
 - [Rishi, Ankush and Rushabh]
-
-## License
-This project is licensed under the [MIT License](LICENSE).
